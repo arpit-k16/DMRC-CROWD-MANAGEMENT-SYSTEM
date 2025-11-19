@@ -445,7 +445,7 @@ def create_line_comparison(df):
 # ----------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("delhi_metro_cleaned_no_unknown.csv")
+    return pd.read_csv("delhi_metro_cleaned_final.csv")
 
 df = load_data()
 
